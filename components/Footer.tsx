@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const Footer = () => {
   return (
-    <footer className="w-full pt-20 pb-2 px-2" id="contact">
+    <footer className="w-full pt-20 pb-2 overflow-hidden" id="contact">
       {/* background grid */}
       <div className="w-full fixed top-0 left-0 min-h-96 -z-10">
         <img

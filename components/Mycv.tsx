@@ -1,7 +1,6 @@
 import React from 'react'
 import { FaFileDownload } from 'react-icons/fa'
 import '@/components/styles/style.css'
-import { Button } from './ui/MovingBorders'
 import { FaEye } from 'react-icons/fa6'
 
 const Mycv = () => {

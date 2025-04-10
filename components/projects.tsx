@@ -65,7 +65,7 @@ export function Projects () {
       title: 'CogniVista',
       description:
         'Smart education platform with interactive whiteboard using Canvas API & Fabric.js.',
-      technologies: ['React', 'Canvas API', 'Fabric.js', 'Firebase', 'JWT'],
+      technologies: ['Next.js', 'Canvas API', 'Fabric.js', 'Firebase', 'JWT', 'TypeScript'],
       imageUrl: '/cogniVista.png',
       liveUrl: 'https://cognivista.vercel.app/',
       githubUrl: 'https://github.com/anshshah23/cognivista'
@@ -74,7 +74,7 @@ export function Projects () {
       title: 'Nadi Parikshan',
       description:
         'Health assessment tool using Arduino, signal processing, and ML inspired by ancient pulse diagnosis.',
-      technologies: ['Arduino', 'Python', 'ML', 'Signal Processing'],
+      technologies: ['Arduino', 'Python', 'ML', 'Signal Processing', 'React', 'Flask'],
       imageUrl: '/nadiParikshan.png',
       liveUrl: 'https://nadi-parikshan.vercel.app/',
       githubUrl: 'https://github.com/anshshah23/nadi-parikshan'
@@ -83,7 +83,7 @@ export function Projects () {
       title: 'PhishNetAI',
       description:
         'Phishing detection platform using AI-powered Flask backend with real-time threat analysis.',
-      technologies: ['Next.js', 'Python', 'ML', 'React', 'Flask', 'MongoDB'],
+      technologies: ['Next.js', 'Python', 'ML', 'React', 'MongoDB','TypeScript', 'Clerk'],
       imageUrl: '/phishnetai.png',
       liveUrl: 'https://phishnetai.vercel.app/',
       githubUrl: 'https://github.com/anshshah23/phishnetai'
@@ -100,7 +100,7 @@ export function Projects () {
     {
       title: "Personal Portfolio (V2)",
       description:
-        'A portfolio website designed and developed using React.js, Tailwind CSS, and Framer Motion.',
+        'A portfolio website designed and developed using Next.js, Tailwind CSS, and Framer Motion.',
       technologies: ['Next.js', 'Tailwind', 'Framer Motion', 'TypeScript', 'Three.js'],
       imageUrl: '/portfolio2.png',
       liveUrl: 'https://anshshah230304.vercel.app/',
@@ -128,7 +128,7 @@ export function Projects () {
       title: 'TravelEssence',
       description:
         'A travel website that provides information about various destinations.',
-      technologies: ['React', 'Tailwind', 'JavaScript'],
+      technologies: ['React', 'MaterialUI', 'JavaScript'],
       imageUrl: '/travelEssence.png',
       liveUrl: 'https://travelessence-byansh.vercel.app/',
       githubUrl: 'https://github.com/anshshah23/project_travel_advisor'
@@ -137,7 +137,7 @@ export function Projects () {
       title: 'AaharAlly',
       description:
         'A food delivery app that connects users with local restaurants.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
+      technologies: ['Next.js', 'Node.js', 'MongoDB', 'Tailwind', 'Clerk'],
       imageUrl: '/AaharAlly.png',
       liveUrl: 'https://aaharally.vercel.app/',
       githubUrl: ''
@@ -155,7 +155,7 @@ export function Projects () {
       title: 'DJS NSS',
       description:
         'A website for the NSS unit of DJSCE, showcasing events and initiatives.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Tailwind'],
+      technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Tailwind', 'Cloudinary'],
       imageUrl: '/djsnss.png',
       liveUrl: 'https://djsnss.com/',
       githubUrl: 'https://github.com/djsnss/djsnss-web'
@@ -164,7 +164,7 @@ export function Projects () {
       title: 'DJSCE E-Cell',
       description:
         'A website for the E-Cell of DJSCE, showcasing events and initiatives.',
-      technologies: ['Next.js', 'Node.js', 'MongoDB', 'Tailwind'],
+      technologies: ['Next.js', 'Tailwind', 'TypeScript', 'ShadCN', 'AceternityUI'],
       imageUrl: '/ecell.png',
       liveUrl: 'https://djsceecell.com/',
       githubUrl: 'https://github.com/DJSCE-ECELL/MainWebsite'

@@ -4,6 +4,7 @@ import { Hero } from '@/components/hero'
 import { Projects } from '@/components/projects'
 import { Experience } from '@/components/Experience'
 import { Skills } from '@/components/skills'
+import Mycv from '@/components/Mycv'
 import { Achievements } from '@/components/achievements'
 import { Activities } from '@/components/activities'
 import { Contact } from '@/components/contact'
@@ -17,6 +18,7 @@ export default function Home () {
       <Hero />
       <Terminal />
       <Skills />
+      <Mycv />
       <Projects />
       <Approach />
       <Achievements />

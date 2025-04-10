@@ -37,10 +37,7 @@ export function Navbar () {
         if (scrollPosition >= top && scrollPosition < top + height) {
           setActiveSection(id)
         }
-      })
-
-      console.log('Active Section:', activeSection)
-      
+      })      
     }
 
     window.addEventListener('scroll', handleScroll)
@@ -119,7 +116,7 @@ export function Navbar () {
               onClick={() => scrollToSection(sectionId)}
               className={`flex items-center rounded-full px-3 py-1.5 text-sm transition-colors ${
                 activeSection === sectionId
-                  ? 'bg-gradient-to-r from-indigo-600/80 to-purple-600/80 text-white'
+                  ? 'bg-gradient-to-r from-indigo-600/80 via-blue-500/80 to-sky-400/80 text-white'
                   : 'text-gray-300 hover:bg-white/10 hover:text-white'
               }`}
               initial={{ opacity: 0, y: -20 }}
