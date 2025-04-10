@@ -31,7 +31,7 @@ export const GlassCard = ({
         glowEffect &&
           "before:absolute before:inset-0 before:-z-10 before:h-full before:w-full before:rounded-2xl before:bg-gradient-to-br before:from-blue-500/20 before:to-sky-600/20 before:opacity-0 before:blur-xl before:transition-all before:duration-500 hover:before:opacity-100",
         borderEffect &&
-          "after:absolute after:inset-0 after:rounded-2xl after:p-px after:bg-gradient-to-br after:from-blue-500/30 after:to-sky-600/30 after:opacity-30 hover:after:opacity-100 after:transition-opacity",
+          "after:absolute after:inset-0 after:rounded-2xl after:p-px after:bg-gradient-to-br after:from-blue-500/10 after:to-sky-600/10 after:opacity-30 hover:after:opacity-100 after:transition-opacity",
         className,
       )}
       initial={initial}
