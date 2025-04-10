@@ -92,7 +92,7 @@ export function Navbar () {
       title: 'LinkedIn',
       url: 'https://www.linkedin.com/in/anshshah23/'
     },
-    { icon: FileText, title: 'Resume', url: '#' }
+    { icon: FileText, title: 'Resume', url: 'https://drive.google.com/file/d/1wIkdVPFN_Z8bCc9vHOUum4p1bnpCFtOF/view?usp=sharing' }
   ]
 
   return (

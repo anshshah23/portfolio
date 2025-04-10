@@ -6,7 +6,7 @@ import { FaEye } from 'react-icons/fa6'
 const Mycv = () => {
     const handleDownload = () => {
         const link = document.createElement("a");
-        link.href = "https://drive.google.com/uc?export=download&id=14SVSVwtZ-jmlT8jr49MBGB3c-YKKjTV3";
+        link.href = "https://drive.google.com/uc?export=download&id=1wIkdVPFN_Z8bCc9vHOUum4p1bnpCFtOF";
         link.download = "Ansh_Shah_Resume.pdf";
         document.body.appendChild(link);
         link.click();
@@ -14,7 +14,7 @@ const Mycv = () => {
     };
 
     const handleView = () => {
-        window.open("https://drive.google.com/file/d/14SVSVwtZ-jmlT8jr49MBGB3c-YKKjTV3/view?usp=sharing", "_blank");
+        window.open("https://drive.google.com/file/d/1wIkdVPFN_Z8bCc9vHOUum4p1bnpCFtOF/view?usp=sharing", "_blank");
     };
 
     return (
