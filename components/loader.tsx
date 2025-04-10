@@ -22,12 +22,12 @@ export function Loader() {
   return (
     <div className="fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-black dark:bg-black text-white transition-opacity duration-700 ease-in-out">
       <div className="relative w-24 h-24 mb-6">
-        <div className="absolute inset-0 animate-ping rounded-full border-4 border-purple-500 opacity-75"></div>
-        <div className="absolute inset-2 rounded-full border-4 border-purple-400"></div>
-        <div className="absolute inset-6 flex items-center justify-center rounded-full bg-purple-600 font-bold text-2xl">AS</div>
+        <div className="absolute inset-0 animate-ping rounded-full border-4 border-sky-500 opacity-75"></div>
+        <div className="absolute inset-2 rounded-full border-4 border-sky-400"></div>
+        <div className="absolute inset-6 flex items-center justify-center rounded-full bg-sky-600 font-bold text-2xl">AS</div>
       </div>
       <div className="text-center">
-        <h2 className="text-2xl font-bold mb-1 bg-gradient-to-r from-indigo-400 to-purple-400 text-transparent bg-clip-text">
+        <h2 className="text-2xl font-bold mb-1 bg-gradient-to-tr from-blue-400 to-sky-400 text-transparent bg-clip-text">
           Ansh Shah
         </h2>
         <p className="text-sm text-gray-300">Loading Portfolio...</p>

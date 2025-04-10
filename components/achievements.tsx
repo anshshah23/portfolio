@@ -59,7 +59,7 @@ export function Achievements() {
           className="mb-12 text-center"
         >
           <h2 className="mb-4 text-4xl font-bold tracking-tight text-white">
-            <span className="bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-tr from-blue-600 to-sky-400 bg-clip-text text-transparent">
               Achievements
             </span>
           </h2>
@@ -74,7 +74,7 @@ export function Achievements() {
               <CardBody className="h-full rounded-2xl border border-white/10 bg-gradient-to-br from-gray-900/90 to-gray-900/70 p-6 backdrop-blur-sm">
                 <CardItem
                   translateZ={40}
-                  className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-indigo-500/20 to-purple-600/20 text-indigo-500"
+                  className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-blue-500/20 to-sky-600/20 text-blue-500"
                 >
                   <Award className="h-6 w-6" />
                 </CardItem>
@@ -90,7 +90,7 @@ export function Achievements() {
                       href={achievement.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-1 text-indigo-400 transition-colors hover:text-indigo-300"
+                      className="flex items-center gap-1 text-blue-400 transition-colors hover:text-blue-300"
                     >
                       <ExternalLink className="h-4 w-4" />
                       <span>View Project</span>

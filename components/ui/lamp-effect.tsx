@@ -36,12 +36,12 @@ export const LampEffect = ({
             ease: "easeInOut",
           }}
           viewport={{ once: true }}
-          className="absolute inset-auto right-1/2 top-0 z-0 h-56 w-[30rem] -translate-y-[10%] translate-x-1/2 bg-gradient-to-r from-violet-600 to-indigo-600 opacity-50 blur-[80px]"
+          className="absolute inset-auto right-1/2 top-0 z-0 h-56 w-[30rem] -translate-y-[10%] translate-x-1/2 bg-gradient-to-tr from-violet-600 to-blue-600 opacity-50 blur-[80px]"
         />
       )}
       <div
         className={cn(
-          "absolute left-1/2 top-0 z-0 -translate-x-1/2 -translate-y-[10%] transform-gpu overflow-hidden rounded-full bg-gradient-to-r from-violet-600 to-indigo-600 opacity-50 blur-[80px]",
+          "absolute left-1/2 top-0 z-0 -translate-x-1/2 -translate-y-[10%] transform-gpu overflow-hidden rounded-full bg-gradient-to-tr from-violet-600 to-blue-600 opacity-50 blur-[80px]",
           sizeMap[size],
           className,
         )}

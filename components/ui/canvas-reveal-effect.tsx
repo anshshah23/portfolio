@@ -81,7 +81,7 @@ export const CanvasRevealEffect = ({
         >
           <div
             className={cn(
-              "absolute inset-0 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 opacity-80",
+              "absolute inset-0 rounded-full bg-gradient-to-br from-blue-500 to-sky-600 opacity-80",
               revealClassName,
             )}
             style={{

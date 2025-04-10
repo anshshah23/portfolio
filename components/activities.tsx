@@ -58,7 +58,7 @@ export function Activities() {
           className="mb-12 text-center"
         >
           <h2 className="mb-4 text-4xl font-bold tracking-tight text-foreground">
-            <span className="bg-gradient-to-r from-indigo-500 to-purple-600 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-tr from-blue-600 to-sky-400 bg-clip-text text-transparent">
               Co-Curricular Activities
             </span>
           </h2>
@@ -77,7 +77,7 @@ export function Activities() {
               className="p-6 bg-card text-card-foreground"
             >
               <motion.div
-                className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-indigo-500/20 to-purple-600/20 text-indigo-500"
+                className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-blue-500/20 to-sky-600/20 text-blue-500"
                 whilehover={{ rotate: 5, scale: 1.1 }}
                 animate={{ y: [0, -5, 0] }}
                 transition={{ repeat: Number.POSITIVE_INFINITY, duration: 2 }}

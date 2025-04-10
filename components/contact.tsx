@@ -94,7 +94,7 @@ export function Contact () {
           className='mb-12 text-center'
         >
           <h2 className='mb-4 text-4xl font-bold tracking-tight text-white'>
-            <span className='bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent'>
+            <span className='bg-gradient-to-tr from-blue-600 to-sky-400 bg-clip-text text-transparent'>
               Contact Me
             </span>
           </h2>
@@ -122,13 +122,13 @@ export function Contact () {
                   href={contact.url}
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='flex items-center gap-4 rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm transition-all hover:-translate-y-1 hover:bg-indigo-900/20'
+                  className='flex items-center gap-4 rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm transition-all hover:-translate-y-1 hover:bg-blue-900/20'
                   initial={{ opacity: 0, x: -20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.3, delay: 0.3 + 0.1 * index }}
                   whilehover={{ scale: 1.02, x: 5 }}
                 >
-                  <div className='flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-indigo-500/20 to-purple-600/20 text-indigo-500'>
+                  <div className='flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-blue-500/20 to-sky-600/20 text-blue-500'>
                     <contact.icon className='h-5 w-5' />
                   </div>
                   <div>
@@ -153,7 +153,7 @@ export function Contact () {
             </h3>
             {isSubmitted ? (
               <motion.div
-                className='rounded-lg bg-gradient-to-r from-indigo-500/20 to-purple-600/20 p-4 text-indigo-300'
+                className='rounded-lg bg-gradient-to-tr from-blue-600/20 to-sky-400/20 p-4 text-blue-300'
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.3 }}
@@ -176,7 +176,7 @@ export function Contact () {
                     onChange={handleChange}
                     placeholder='Your name'
                     required
-                    className='border-white/10 bg-white/5 text-white placeholder:text-gray-500 focus:border-indigo-500'
+                    className='border-white/10 bg-white/5 text-white placeholder:text-gray-500 focus:border-blue-500'
                   />
                 </div>
                 <div>
@@ -194,7 +194,7 @@ export function Contact () {
                     onChange={handleChange}
                     placeholder='Your email'
                     required
-                    className='border-white/10 bg-white/5 text-white placeholder:text-gray-500 focus:border-indigo-500'
+                    className='border-white/10 bg-white/5 text-white placeholder:text-gray-500 focus:border-blue-500'
                   />
                 </div>
                 <div>
@@ -211,13 +211,13 @@ export function Contact () {
                     onChange={handleChange}
                     placeholder='Your message'
                     required
-                    className='min-h-32 border-white/10 bg-white/5 text-white placeholder:text-gray-500 focus:border-indigo-500'
+                    className='min-h-32 border-white/10 bg-white/5 text-white placeholder:text-gray-500 focus:border-blue-500'
                   />
                 </div>
                 <Button
                   type='submit'
                   disabled={isSubmitting}
-                  className='w-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white hover:from-indigo-700 hover:to-purple-700'
+                  className='w-full bg-gradient-to-tr from-blue-600 to-sky-600 text-white hover:from-blue-700 hover:to-sky-700'
                   whilehover={{ scale: 1.02 }}
                   whiletap={{ scale: 0.98 }}
                   as={motion.button}

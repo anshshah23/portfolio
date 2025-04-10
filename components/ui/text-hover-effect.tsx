@@ -53,7 +53,7 @@ export const TextHoverEffect = ({
           </div>
           {hoveredIndex === idx && !isSmallScreen && (
             <motion.div
-              className="absolute inset-0 z-0 rounded-full bg-gradient-to-r from-violet-600 to-indigo-600"
+              className="absolute inset-0 z-0 rounded-full bg-gradient-to-tr from-violet-600 to-blue-600"
               layoutId="hoverBackground"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}

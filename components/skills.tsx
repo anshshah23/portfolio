@@ -128,7 +128,7 @@ export function Skills () {
           className='mb-12 text-center'
         >
           <h2 className='mb-4 text-4xl font-bold tracking-tight text-white'>
-            <span className='bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent'>
+            <span className='bg-gradient-to-tr from-blue-600 to-sky-400 bg-clip-text text-transparent'>
               Skills & Technologies
             </span>
           </h2>
@@ -143,7 +143,7 @@ export function Skills () {
               key={category}
               className={`px-4 py-2 text-sm font-semibold rounded-lg ${
                 selectedCategory === category
-                  ? 'bg-purple-500 text-white'
+                  ? 'bg-sky-500 text-white'
                   : 'bg-gray-700 text-gray-300'
               }`}
               onClick={() => setSelectedCategory(category)}

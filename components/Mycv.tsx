@@ -21,18 +21,18 @@ const Mycv = () => {
         <>
             <div className=''>
                 {/* <h1 className="heading">
-                    My <span className="text-purple">CV</span>
+                    My <span className="text-sky">CV</span>
                 </h1> */}
                 {/* <p className="text-center sm:text-left text-xl sm:text-3xl pt-8">
-                    Hi, my name is <b className="text-purple">Ansh Shah</b> and I am from Mumbai, India. I&apos;m a <b className="text-purple">Frontend Web Developer</b> and a Third-Year
-                    student pursuing <b className="text-purple">BTech in Computer Engineering</b>.
+                    Hi, my name is <b className="text-sky">Ansh Shah</b> and I am from Mumbai, India. I&apos;m a <b className="text-sky">Frontend Web Developer</b> and a Third-Year
+                    student pursuing <b className="text-sky">BTech in Computer Engineering</b>.
                     <br />
                     <br />
                     I love to create projects with beautiful designs and apply my own touch to them. You can check out some of my work in the projects
                     section. Proficient in diverse technologies, seeking opportunities to innovate and contribute effectively to projects.
                     <br />
                     <br />
-                    I am <b className="text-purple">open</b> to new collaborations or work where I can contribute and grow. Feel free to connect with me, links are at the bottom.
+                    I am <b className="text-sky">open</b> to new collaborations or work where I can contribute and grow. Feel free to connect with me, links are at the bottom.
                     <br />
                     <br />
                     Apart from coding, I love to read novels, paint, design, and do photography in my free time.

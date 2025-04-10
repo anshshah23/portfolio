@@ -190,7 +190,7 @@ export function Projects () {
           className='mb-12 text-center'
         >
           <h2 className='mb-4 text-4xl font-bold tracking-tight text-white'>
-            <span className='bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent'>
+            <span className='bg-gradient-to-tr from-blue-600 to-sky-400 bg-clip-text text-transparent'>
               Projects
             </span>
           </h2>
@@ -206,7 +206,7 @@ export function Projects () {
               onClick={() => setFilter(tech)}
               className={`px-4 py-2 text-sm font-semibold rounded-md transition-colors ${
                 filter === tech
-                  ? 'bg-indigo-500 text-white'
+                  ? 'bg-blue-500 text-white'
                   : 'bg-gray-800 text-gray-300 hover:bg-gray-700'
               }`}
             >
@@ -247,7 +247,7 @@ export function Projects () {
                       {project.technologies.map(tech => (
                         <span
                           key={tech}
-                          className='rounded-full bg-indigo-500/20 px-3 py-1 text-xs font-medium text-indigo-300'
+                          className='rounded-full bg-blue-500/20 px-3 py-1 text-xs font-medium text-blue-300'
                         >
                           {tech}
                         </span>
@@ -260,7 +260,7 @@ export function Projects () {
                       href={project.liveUrl}
                       target='_blank'
                       rel='noopener noreferrer'
-                      className='flex items-center gap-1 text-indigo-400 transition-colors hover:text-indigo-300'
+                      className='flex items-center gap-1 text-blue-400 transition-colors hover:text-blue-300'
                     >
                       <ExternalLink className='h-4 w-4' />
                       <span>Live Demo</span>

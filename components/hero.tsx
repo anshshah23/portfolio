@@ -29,15 +29,17 @@ export function Hero () {
   }, [])
 
   const scrollToProjects = () => {
-    const projectsSection = document.getElementById('projects')
-    if (projectsSection) {
-      projectsSection.scrollIntoView({ behavior: 'smooth' })
-    }
+    setTimeout(() => {
+      const projectsSection = document.getElementById('projects')
+      if (projectsSection) {
+        projectsSection.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      }
+    }, 100) // Small delay ensures section is loaded before attempting to scroll
   }
-
+  
   return (
-    <section id='home' className='relative min-h-screen'>
-      <div className='relative z-10 flex min-h-[90vh] flex-col items-center justify-center px-4 py-20 text-center'>
+    <section id='home' className='relative min-h-screen z-50'>
+      <div className='relative flex min-h-[90vh] flex-col items-center justify-center px-4 py-20 text-center'>
         <div className='z-50 absolute top-0 left-0 h-full w-full overflow-hidden'>
           <Spotlight
             className='-top-40 -left-10 md:-left-32 md:-top-20 h-screen'
@@ -45,7 +47,7 @@ export function Hero () {
           />
           <Spotlight
             className='h-[80vh] w-[50vw] top-10 left-full'
-            fill='purple'
+            fill='sky'
           />
           <Spotlight
             className='left-80 top-28 h-[100vh] w-[50vw]'
@@ -59,7 +61,7 @@ export function Hero () {
           transition={{ duration: 0.5, delay: 0.7 }}
         >
           Hi, I&apos;m
-          <span className='bg-gradient-to-r ml-2 md:ml-4 from-indigo-400 to-purple-500 bg-clip-text text-transparent'>
+          <span className='bg-gradient-to-tr ml-2 md:ml-4 from-blue-600 to-sky-400 bg-clip-text text-transparent'>
             Ansh Shah
           </span>
         </motion.h1>
@@ -84,7 +86,7 @@ export function Hero () {
         >
           <Button
             size='lg'
-            className='bg-gradient-to-r from-indigo-600 to-purple-600 text-white hover:from-indigo-700 hover:to-purple-700'
+            className='bg-gradient-to-tr bg-blue-500 to-sky-400 text-white hover:from-blue-700 hover:to-sky-500'
             onClick={scrollToProjects}
           >
             View My Work
@@ -94,10 +96,15 @@ export function Hero () {
             size='lg'
             className='border-gray-700 text-gray-300 hover:bg-gray-800 hover:text-white'
             onClick={() => {
-              const contactSection = document.getElementById('contact')
-              if (contactSection) {
-                contactSection.scrollIntoView({ behavior: 'smooth' })
-              }
+              setTimeout(() => {
+                const contactSection = document.getElementById('contact')
+                if (contactSection) {
+                  contactSection.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                  })
+                }
+              }, 100)
             }}
           >
             Contact Me
@@ -117,7 +124,7 @@ export function Hero () {
           })
         }}
       >
-        <ArrowDown className='h-8 w-8 animate-bounce text-indigo-400' />
+        <ArrowDown className='h-8 w-8 animate-bounce text-blue-400' />
       </motion.div>
     </section>
   )
