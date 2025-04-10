@@ -8,11 +8,11 @@ export const Footer = () => {
   return (
     <footer className="w-full pt-20 pb-2 px-2" id="contact">
       {/* background grid */}
-      <div className="w-full absolute top-0 left-0 min-h-96">
+      <div className="w-full fixed top-0 left-0 min-h-96 -z-10">
         <img
           src="/footer-grid.svg"
           alt="grid"
-          className="w-full h-full opacity-50 backdrop:blur-xl -z-10"
+          className="w-full h-full opacity-50 backdrop:blur-xl"
         />
       </div>
 

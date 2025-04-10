@@ -5,6 +5,7 @@ import { motion } from 'framer-motion'
 import { ArrowDown } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Spotlight } from './ui/Spotlight'
+import Link from 'next/link'
 import Type from './ui/Type'
 
 export function Hero () {
@@ -117,7 +118,9 @@ export function Hero () {
           })
         }}
       >
-        <ArrowDown className='h-8 w-8 animate-bounce text-indigo-400' />
+        <Link href='#terminal'>
+          <ArrowDown className='h-8 w-8 animate-bounce text-indigo-400' />
+        </Link>
       </motion.div>
     </section>
   )

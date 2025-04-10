@@ -110,8 +110,9 @@ export function Terminal() {
   }, [commands])
 
   return (
-    <motion.div
-      className="mx-auto my-16 w-full max-w-4xl px-4 z-40"
+    <motion.section
+      className="mx-auto my-16 pt-10 w-full max-w-4xl px-4 z-40"
+      id="terminal"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.3 }}
@@ -161,6 +162,6 @@ export function Terminal() {
           )}
         </div>
       </GlassCard>
-    </motion.div>
+    </motion.section>
   )
 }
