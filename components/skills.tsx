@@ -35,16 +35,9 @@ const iconMap: Record<
   PostgreSQL: () =>
     import('react-icons/si').then(mod => ({ default: mod.SiPostgresql })),
   MySQL: () => import('react-icons/si').then(mod => ({ default: mod.SiMysql })),
-  Docker: () =>
-    import('react-icons/fa').then(mod => ({ default: mod.FaDocker })),
-  Kubernetes: () =>
-    import('react-icons/si').then(mod => ({ default: mod.SiKubernetes })),
-  AWS: () => import('react-icons/fa').then(mod => ({ default: mod.FaAws })),
   Git: () => import('react-icons/fa').then(mod => ({ default: mod.FaGit })),
   GitHub: () =>
     import('react-icons/fa').then(mod => ({ default: mod.FaGithub })),
-  'React Native': () =>
-    import('react-icons/fa').then(mod => ({ default: mod.FaReact })),
   Figma: () => import('react-icons/fa').then(mod => ({ default: mod.FaFigma })),
   'VS Code': () =>
     import('react-icons/fa').then(mod => ({ default: mod.FaCode })),
